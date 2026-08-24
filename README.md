@@ -56,10 +56,11 @@ indonesia-poverty-analysis/
 │   └── cleaned_data.xlsx             # Cleaned & exported dataset
 │
 ├── 📈 results/
-│   ├── correlation_heatmap.png
-│   ├── poverty_distribution.png
-│   ├── boxplot_outliers.png
-│   └── kde_plots.png
+│   ├── correlation_heatmap.png       # Pearson correlation heatmap
+│   ├── poverty_distribution.png      # Poverty rate histogram
+│   ├── boxplot_outliers.png          # Boxplot for outlier detection
+│   ├── kde_plots.png                 # KDE distribution plots
+│   └── dashboard_preview.png         # Screenshot of Looker Studio dashboard
 │
 └── README.md
 ```
@@ -86,6 +87,19 @@ indonesia-poverty-analysis/
 - **Descriptive statistics** and distribution analysis on poverty rates across provinces
 - **Pearson correlation matrix** across 9 socioeconomic variables to identify inter-variable relationships
 - **Visualizations:** Heatmaps, Histograms, Boxplots, and KDE Plots
+
+---
+
+## 📸 Visualizations
+
+### Correlation Heatmap
+![Correlation Heatmap](results/correlation_heatmap.png)
+
+### Poverty Rate Distribution
+![Poverty Distribution](results/poverty_distribution.png)
+
+### Dashboard Preview
+![Dashboard](results/dashboard_preview.png)
 
 ---
 
