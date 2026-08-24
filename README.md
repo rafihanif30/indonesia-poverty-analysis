@@ -141,7 +141,7 @@ Explore the interactive provincial poverty dashboard visualizing poverty rate, e
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/rafihanif30/indonesia-poverty-analysis.git
+git clone https://github.com/rafihanifafikri/indonesia-poverty-analysis.git
 cd indonesia-poverty-analysis
 pip install pandas matplotlib seaborn openpyxl
 jupyter notebook notebook/poverty_analysis.ipynb
